@@ -10,3 +10,6 @@ interface CustomEventMap {
 }
 
 declare const fetchData: Promise<ContentIndex>
+
+// Ensure TypeScript recognizes these types globally
+export {}
