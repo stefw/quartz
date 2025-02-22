@@ -15,7 +15,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "fr-FR",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: process.env.VERCEL_URL || "localhost:3000",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: false,
@@ -64,8 +64,8 @@ const config: QuartzConfig = {
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({
-        markdownLinkResolution: "absolute",
-        prettyLinks: true,
+        markdownLinkResolution: "relative",
+        prettyLinks: true
       }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),

@@ -4,7 +4,7 @@ title: "Ma deuxième note"
 
 # Ma deuxième note
 
-Cette note est liée à [[exemple1.md|Ma première note]].
+Cette note est liée à [[exemple1|Ma première note]].
 
 ## Fonctionnalités de Quartz
 
