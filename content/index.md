@@ -8,8 +8,8 @@ Ceci est ma page d'accueil. Vous pouvez naviguer à travers mes notes à partir 
 
 ## Notes récentes
 
-- [[exemple1|Ma première note]]
-- [[exemple2|Ma deuxième note]]
+- [[exemple1.md|Ma première note]]
+- [[exemple2.md|Ma deuxième note]]
 
 ## À propos
 

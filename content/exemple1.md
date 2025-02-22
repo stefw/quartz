@@ -14,4 +14,4 @@ Vous pouvez écrire du contenu en Markdown ici. Par exemple :
 - Avec des points
 - Et du **texte en gras**
 
-Vous pouvez aussi créer des liens vers d'autres notes comme [[exemple2]]. 
+Vous pouvez aussi créer des liens vers d'autres notes comme [[exemple2.md|Ma deuxième note]]. 
